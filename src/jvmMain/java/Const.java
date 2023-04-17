@@ -1,0 +1,40 @@
+import java.util.Arrays;
+import java.util.List;
+
+public class Const {
+    public static List<String> SampleNameBlackList = Arrays.asList("bk", "BK", "k", "K", "r", "R");
+    public static List<String> SampleNameWhiteList = Arrays.asList("k", "K", "r", "R");
+    public static final String SampleType = "Unknown";
+    public static final String FTS42_1 = "4:2FTS 1";
+    public static final String ClPFESA62_1 = "6:2 ClPFESA 1";
+    public static final String FTS62_1 = "6:2FTS 1";
+    public static final String ClPFESA81_1 = "8:2 ClPFESA 1";
+    public static final String FTS82_1 = "8:2FTS 1";
+    public static final String FOSAI_1 = "FOSA-I-1";
+    public static final String HFPODA_1 = "HFPO-DA 1";
+    public static final String NEtFOSAA_1 = "N-EtFOSAA 1";
+    public static final String NMeFOSAA_1 = "N-MeFOSAA 1";
+    public static final String NaDONA_1 = "NaDONA 1";
+    public static final String PFBA = "PFBA";
+    public static final String PFBS_1 = "PFBS 1";
+    public static final String PFDA_1 = "PFDA 1";
+    public static final String PFDoA_1 = "PFDoA 1";
+    public static final String PFDS_1 = "PFDS 1";
+    public static final String PFHpA_1 = "PFHpA 1";
+    public static final String PFHpS_1 = "PFHpS 1";
+    public static final String PFHxA_1 = "PFHxA 1";
+    public static final String PFHxS_11 = "PFHxS 11";
+    public static final String PFNA_1 = "PFNA 1";
+    public static final String PFNS_1 = "PFNS 1";
+    public static final String PFOA_1 = "PFOA 1";
+    public static final String PFOS_1 = "PFOS 1";
+    public static final String PFPeA_1 = "PFPeA 1";
+    public static final String PFPeS_1 = "PFPeS 1";
+    public static final String PFTeDA_1 = "PFTeDA 1";
+    public static final String PFTrDA_1 = "PFTrDA 1";
+    public static final String PFUdA_1 = "PFUdA 1";
+    public static final String PFOS_2 = "PFOS 2";
+    public static final String PFOS_31 = "PFOS 31";
+    public static final String PFOS_5 = "PFOS 5";
+    public static final String PFHxS_21 = "PFHxS 21";
+}

@@ -25,7 +25,7 @@ fun App() {
             isFileChooserOpen = false
             it?.map { file ->
                 println("Result ${file.absolutePath}")
-                ExcelUtil.readLxnExcel(file.absolutePath)
+                ExcelUtil.readLxnExcel1(file.absolutePath)
 
             }
         })
@@ -33,14 +33,9 @@ fun App() {
     MaterialTheme {
         Column {
             Button(onClick = {
-                text = "Hello, Desktop!"
-            }) {
-                Text(text)
-            }
-            Button(onClick = {
                 isFileChooserOpen = true
             }) {
-                Text("点击")
+                Text("项目1")
             }
         }
     }
