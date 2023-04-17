@@ -38,8 +38,14 @@ compose.desktop {
         mainClass = "MainKt"
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "last_excel"
+            packageName = "LXN私人助手"
             packageVersion = "1.0.0"
+            macOS {
+                iconFile.set(project.file("launcher/icon.icns"))
+            }
+            windows {
+                iconFile.set(project.file("launcher/icon.ico"))
+            }
         }
     }
 }

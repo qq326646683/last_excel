@@ -53,7 +53,7 @@ public class ExcelUtil {
 
     }
 
-    public static void readLxnExcel1(String path) {
+    public static void readLxnExcel1(String path, String savePath) {
         EasyExcel.read(path, LxnEntity.class, new ReadListener<LxnEntity>() {
             /**
              * 单次缓存的数据量
@@ -83,13 +83,13 @@ public class ExcelUtil {
              * 加上存储数据库
              */
             private void saveData() {
-                readLxnExcel1(cachedDataList, path.replace(".", "_" + DateUtils.format(new Date()) + "."));
+                dealLxnExcel1(cachedDataList, savePath);
             }
         }).sheet().doRead();
 
     }
 
-    private static void readLxnExcel1(List<LxnEntity> cachedDataList, String savePath) {
+    private static void dealLxnExcel1(List<LxnEntity> cachedDataList, String savePath) {
         List<ResultEntity> resultEntityList1 = new ArrayList<>();
         List<ResultEntity> resultEntityList2 = new ArrayList<>();
         for (LxnEntity lxnEntity : cachedDataList) {
