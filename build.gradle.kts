@@ -37,7 +37,7 @@ compose.desktop {
     application {
         mainClass = "MainKt"
         nativeDistributions {
-            targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
+            targetFormats(TargetFormat.Dmg, TargetFormat.Exe)
             packageName = "LXN私人助手"
             packageVersion = "1.0.0"
             macOS {
@@ -46,6 +46,10 @@ compose.desktop {
             windows {
                 iconFile.set(project.file("launcher/icon.ico"))
             }
+        }
+        buildTypes.release.proguard {
+            obfuscate.set(true)
+            configurationFiles.from(project.file("proguard-rules.pro"))
         }
     }
 }
