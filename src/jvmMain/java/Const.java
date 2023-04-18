@@ -8,7 +8,7 @@ public class Const {
     public static final String FTS42_1 = "4:2FTS 1";
     public static final String ClPFESA62_1 = "6:2 ClPFESA 1";
     public static final String FTS62_1 = "6:2FTS 1";
-    public static final String ClPFESA81_1 = "8:2 ClPFESA 1";
+    public static final String ClPFESA82_1 = "8:2 ClPFESA 1";
     public static final String FTS82_1 = "8:2FTS 1";
     public static final String FOSAI_1 = "FOSA-I-1";
     public static final String HFPODA_1 = "HFPO-DA 1";
@@ -33,7 +33,7 @@ public class Const {
     public static final String PFTeDA_1 = "PFTeDA 1";
     public static final String PFTrDA_1 = "PFTrDA 1";
     public static final String PFUdA_1 = "PFUdA 1";
-    public static final String PFOS_2 = "PFOS 2";
+    public static final String PFOS_21 = "PFOS 21";
     public static final String PFOS_31 = "PFOS 31";
     public static final String PFOS_5 = "PFOS 5";
     public static final String PFHxS_21 = "PFHxS 21";

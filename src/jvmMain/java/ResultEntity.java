@@ -12,8 +12,8 @@ public class ResultEntity  implements Serializable {
     private String ClPFESA62_1;
     @ExcelProperty(Const.FTS62_1)
     private String FTS62_1;
-    @ExcelProperty(Const.ClPFESA81_1)
-    private String ClPFESA81_1;
+    @ExcelProperty(Const.ClPFESA82_1)
+    private String ClPFESA82_1;
     @ExcelProperty(Const.FTS82_1)
     private String FTS82_1;
     @ExcelProperty(Const.FOSAI_1)
@@ -62,8 +62,8 @@ public class ResultEntity  implements Serializable {
     private String PFTrDA_1;
     @ExcelProperty(Const.PFUdA_1)
     private String PFUdA_1;
-    @ExcelProperty(Const.PFOS_2)
-    private String PFOS_2;
+    @ExcelProperty(Const.PFOS_21)
+    private String PFOS_21;
     @ExcelProperty(Const.PFOS_31)
     private String PFOS_31;
     @ExcelProperty(Const.PFOS_5)
@@ -103,12 +103,12 @@ public class ResultEntity  implements Serializable {
         this.FTS62_1 = FTS62_1;
     }
 
-    public String getClPFESA81_1() {
-        return ClPFESA81_1;
+    public String getClPFESA82_1() {
+        return ClPFESA82_1;
     }
 
-    public void setClPFESA81_1(String clPFESA81_1) {
-        ClPFESA81_1 = clPFESA81_1;
+    public void setClPFESA82_1(String clPFESA82_1) {
+        ClPFESA82_1 = clPFESA82_1;
     }
 
     public String getFTS82_1() {
@@ -303,12 +303,12 @@ public class ResultEntity  implements Serializable {
         this.PFUdA_1 = PFUdA_1;
     }
 
-    public String getPFOS_2() {
-        return PFOS_2;
+    public String getPFOS_21() {
+        return PFOS_21;
     }
 
-    public void setPFOS_2(String PFOS_2) {
-        this.PFOS_2 = PFOS_2;
+    public void setPFOS_21(String PFOS_21) {
+        this.PFOS_21 = PFOS_21;
     }
 
     public String getPFOS_31() {

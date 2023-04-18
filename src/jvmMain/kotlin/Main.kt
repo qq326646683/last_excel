@@ -23,7 +23,7 @@ fun App() {
             isFileChooserOpen = false
             it?.map { file ->
                 println("Result ${file.absolutePath}")
-                savePath = file.absolutePath.replace(".", "_${DateUtils.format(Date())}.")
+                savePath = file.absolutePath.replace(".", "_${System.currentTimeMillis()}.")
                 ExcelUtil.readLxnExcel1(file.absolutePath, savePath)
             }
         })
