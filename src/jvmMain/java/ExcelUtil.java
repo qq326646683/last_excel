@@ -143,6 +143,9 @@ public class ExcelUtil {
                 4.结果小于0都=0
             */
             ResultEntity k1Entity = getResultEntity(resultEntityList2, "k1");
+            if (k1Entity == null) {
+                k1Entity = getResultEntity(resultEntityList2, "K1");
+            }
             setK1CalcToZero(k1Entity);
             resultEntityList3.addAll(resultEntityList1);
             for (ResultEntity resultEntity : resultEntityList3) {
